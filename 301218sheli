@@ -17,9 +17,9 @@ namespace @for
 		private static void exercice1()
 		{
 			Console.WriteLine("exercice 1");
-			for (int i = 0; i < 200; i++)
+			for (int i = 2; i < 201; i+= 2)
 			{
-				Console.WriteLine(i += 2);
+				Console.WriteLine(i);
 
 			}
 
