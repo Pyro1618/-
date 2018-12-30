@@ -1,1 +1,58 @@
-C:\Users\HackerU\source\repos\Solution_1\for\Program.cs
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace @for
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			exercice1();
+			exercice2();
+			exercice3();
+		}
+
+		private static void exercice1()
+		{
+			Console.WriteLine("exercice 1");
+			for (int i = 0; i < 200; i++)
+			{
+				Console.WriteLine(i += 2);
+
+			}
+
+		}
+		private static void exercice2()
+		{
+			Console.WriteLine("exercice 2");
+			for (int i = 1120; i >6; i = i-7)
+			{
+
+			Console.WriteLine(i); 
+
+			}
+		}
+		private static void exercice3()
+			{
+			Console.WriteLine("exercice 3");
+			int nombre1;
+			int nombre2;
+
+			do
+			{
+				nombre1 = Convert.ToInt16(Console.ReadLine());
+				nombre2 = Convert.ToInt16(Console.ReadLine());
+
+				Console.WriteLine(nombre1 / nombre2);
+			} while (nombre1 % 2 == 0 && nombre2 % 2 == 0);
+				}
+
+
+			}
+
+		}
+
+
+		
